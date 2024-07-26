@@ -3,8 +3,8 @@
 ### Setup
 
 ```
-git clone 
-cd 
+git clone https://github.com/heliosgrounder/DigitalWallet.git
+cd DigitalWallet
 python -m venv venv
 ```
 
