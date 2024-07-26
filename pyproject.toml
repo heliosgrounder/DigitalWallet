@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "DigitalWallet"
-version = "0.0.1"
+version = "0.0.2"
 description = "DigitalWallet is an async service that counts your currencies."
 authors = ["heliosgrounder"]
 readme = "README.md"
