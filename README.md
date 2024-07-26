@@ -27,6 +27,10 @@ pip install -r requirements.txt
 You can choose all available currencies in [this](https://www.cbr-xml-daily.ru/daily_json.js).
 
 ```
+cd digitalwallet
+```
+
+```
 python -m main --period 10 --rub 10 --debug y
 ```
 
