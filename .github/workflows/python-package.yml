@@ -27,7 +27,8 @@ jobs:
     - name: Build Package
       run: |
         poetry build
-    - name: Publish Package
+    - name: Change poetry config
       run: poetry config pypi-token.testpypi ${{ secrets.PYPI_TOKEN }}
+    - name: Publish Package
       run: |
         poetry publish
